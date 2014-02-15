@@ -1,11 +1,72 @@
 body {
-  background-color: pink;
+  background-color: #ffffff;
 }
 
+
+/*link styling. all links are without decoration (no underline) and are robin egg blue (#80cfcf)*/
+a {
+  text-decoration: none;
+  color: #80cfcf;
+}
+
+/*//////NAVIGATION BAR STYLING\\\\\\*/
+
+/*general styling for the nav bar. everything is centered and inline in order to keep the nav bar relatively small*/
 header {
-  background-color: green;
+  width: 99%;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: center;
 }
 
-.navlinks {
-  background-color: blue;
+/*styling for the "Neha Shah" section of the nav bar*/
+.neha{
+  color: #80cfcf;
+  font-size: 30px;
+  padding-right: 60px;
 }
+
+/*styling for the links section of the nav bar*/
+.navlinks {
+  padding: 0px;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  margin: 0px;
+}
+
+/*styling for the social media buttons of the nav bar*/
+.smlinks{
+  float: right;
+  vertical-align: center;
+  text-align: center;
+  height:58px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*continued styling for the header elements, keeps everything inline*/
+header h3 {
+  display: inline;
+  vertical-align: center;
+  text-align: center;
+}
+
+/*styling for all li elements. removes bullet points, adds padding between the elements and keeps things inline. */
+li {
+  text-decoration: none;
+  display: inline;
+  padding-right: 8px;
+  vertical-align: center;
+  text-align: center;
+}
+
+/*sets the height and width for the email icon*/
+.mailicon img {
+  height: 30px;
+  width: auto;
+}
+
+
+
