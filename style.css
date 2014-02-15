@@ -70,3 +70,15 @@ li {
 
 
 
+//////HOMEPAGE STYLING \\\\\\
+
+
+.owl {
+  width: 50%;
+  float: left;
+}
+.homepagespiel {
+  width: 50%;
+  float: right;
+}
+
