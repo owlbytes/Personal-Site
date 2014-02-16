@@ -70,15 +70,62 @@ li {
 
 
 
-//////HOMEPAGE STYLING \\\\\\
+/*//////HOMEPAGE STYLING \\\\\\*/
 
-
-.owl {
-  width: 50%;
-  float: left;
+.orange{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
-.homepagespiel {
+
+.orange img {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+
+/*//////ABOUT PAGE STYLING \\\\\\*/
+
+.about {
+  padding: 25px;
+}
+.aboutone{
   width: 50%;
-  float: right;
+  float:left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.biopic {
+  padding-top: 25px;
+  border: 2px;
+  height: 350px;
+  width: auto;
+
+}
+
+.biopic img {
+}
+
+.abouttwo{
+  width: 45%;
+  float:left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h4 {
+  color: #80cfcf;
+  font-style: italic;
+}
+
+.interested {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
