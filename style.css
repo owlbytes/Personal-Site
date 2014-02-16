@@ -147,12 +147,14 @@ h4 {
 
 /*//////WORK PAGE STYLING \\\\\\*/
 .workpage {
+  overflow: scroll;
 }
 
 .tablegeneral {
   margin-left: auto;
   margin-right: auto;
   text-align: center;  
+  overflow: scroll;
 }
 
 .workpage img{
@@ -173,7 +175,11 @@ h4 {
 .bose,
 .naspaa,
 .ea,
-.fly{
+.fly,
+.nyo,
+.ra,
+.congress,
+.aiusa{
   /*the image is positioned relative to its normal position*/
   position: relative;
   width: 300px;
@@ -187,7 +193,11 @@ h4 {
 .bosetext,
 .naspaatext,
 .eatext,
-.flytext{
+.flytext,
+.nyotext,
+.ratext,
+.congresstext,
+.aiusatext{
   /*the text is positioned relative to its first positioned (not static) ancestor element (image)*/
   position: absolute;
   top: 0;
@@ -209,7 +219,11 @@ h4 {
 .bose:hover .bosetext,
 .naspaa:hover .naspaatext,
 .ea:hover .eatext,
-.fly:hover .flytext{
+.fly:hover .flytext,
+.nyo:hover .nyotext,
+.ra:hover .ratext,
+.congress:hover .congresstext,
+.aiusa:hover .aiusatext{
   visibility: visible;
   opacity: 1;
 }
