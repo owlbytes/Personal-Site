@@ -147,4 +147,27 @@ h4 {
   border-radius:25px;
   margin: 4px;
 }
- 
+
+.bbl{
+  position: relative;
+  width: 300px;
+  height: 250px;
+}
+
+.bbltext{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-radius:25px;
+  color: #80cfcf;;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.bbl:hover .bbltext {
+  visibility: visible;
+  opacity: 1;
+}
