@@ -1,0 +1,674 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+}
+
+/*1-10*/
+.one {
+  width: 2.702%;
+  height: 100%;
+  background-color: #FF9696;
+  float: left;
+}
+.one:hover {
+  opacity:0.8;
+}
+
+.one:active {
+  background-color:#96FFFF;
+  opacity:1;
+}
+
+
+.two {
+  width: 2.702%;
+  height: 100%;
+  background-color: #FFA896;
+  float:left;
+}
+.two:hover{
+  opacity:0.8;
+}
+
+.two:active {
+  opacity: 1;
+  background-color: #96EDFF;
+}
+
+
+.three {
+  width: 2.702%;
+  background-color: #FFB996;
+  height: 100%;
+  float: left;
+}
+.three:hover{
+  opacity: 0.8;
+}
+
+.three:active{
+  opacity: 1;
+  background-color: #96DCFF;
+}
+
+
+.four {
+  width: 2.702%;
+  background-color: #FFCB96;
+  height: 100%;
+  float: left;
+}
+.four:hover{
+  opacity: 0.8;
+}
+
+.four:active{
+  opacity: 1;
+  background-color: #96CAFF;
+}
+
+
+.five {
+  width: 2.702%;
+  background-color: #FFDC96;
+  height: 100%;
+  float: left;
+}
+.five:hover{
+  opacity: 0.8;
+}
+
+.five:active{
+  opacity: 1;
+  background-color: #96B9FF;
+}
+
+
+
+.six {
+  width: 2.702%;
+  background-color: #FFEE96;
+  height: 100%;
+  float: left;
+}
+.six:hover{
+  opacity: 0.8;
+}
+
+.six:active{
+  opacity: 1;
+  background-color: #96A7FF;
+}
+
+
+.seven {
+  width: 2.702%;
+  background-color: #FFFF96;
+  height: 100%;
+  float: left;
+}
+.seven:hover{
+  opacity: 0.8;
+}
+
+.seven:active{
+  opacity: 1;
+  background-color: #9696FF;
+}
+
+.eight {
+  width: 2.702%;
+  background-color: #EEFF96;
+  height: 100%;
+  float: left;
+}
+
+.eight:hover{
+  opacity: 0.8;
+}
+
+.eight:active{
+  opacity: 1;
+  background-color: #A796FF;
+}
+
+.nine {
+  width: 2.702%;
+  background-color: #DCFF96;
+  height: 100%;
+  float: left;
+}
+.nine:hover{
+  opacity: 0.8;
+}
+.nine:active{
+  opacity: 1;
+  background-color: #B996FF;
+}
+
+.ten {
+  width: 2.702%;
+  background-color: #CBFF96;
+  height: 100%;
+  float: left;
+}
+.ten:hover{
+  opacity: 0.8;
+}
+.ten:active{
+  opacity: 1;
+  background-color: #CA96FF;
+}
+
+
+/*11-20*/
+.eleven {
+  width: 2.702%;
+  background-color: #B9FF96;
+  height: 100%;
+  float: left;
+}
+.eleven:hover{
+  opacity: 0.8;
+}
+.eleven:active{
+  opacity: 1;
+  background-color: #DC96FF;
+}
+
+.twelve {
+  width: 2.702%;
+  background-color: #A8FF96;
+  height: 100%;
+  float: left;
+}
+.twelve:hover{
+  opacity: 0.8;
+}
+.twelve:active{
+  opacity: 1;
+  background-color: #ED96FF;
+}
+
+.thirteen {
+  width: 2.702%;
+  background-color: #96FF96;
+  height: 100%;
+  float: left;
+}
+.thirteen:hover{
+  opacity: 0.8;
+}
+.thirteen:active{
+  opacity: 1;
+  background-color: #FF96FF;
+}
+
+.fourteen {
+  width: 2.702%;
+  background-color: #96FFA7;
+  height: 100%;
+  float: left;
+}
+.fourteen:hover{
+  opacity: 0.8;
+}
+.fourteen:active{
+  opacity: 1;
+  background-color: #FF96EE;
+}
+
+.fifteen {
+  width: 2.702%;
+  background-color: #96FFB9;
+  height: 100%;
+  float: left;
+}
+.fifteen:hover{
+  opacity: 0.8;
+}
+.fifteen:active{
+  opacity: 1;
+  background-color: #FF96DC;  
+}
+
+.sixteen {
+  width: 2.702%;
+  background-color: #96FFCB;
+  height: 100%;
+  float: left;
+}
+.sixteen:hover{
+  opacity: 0.8;
+}
+.sixteen:active{
+  opacity: 1;
+  background-color: #FF96CA;  
+}
+
+.seventeen {
+  width: 2.702%;
+  background-color: #96FFDC;
+  height: 100%;
+  float: left;
+}
+.seventeen:hover{
+  opacity: 0.8;
+}
+.seventeen:active{
+  opacity: 1;
+  background-color: #FF96B9;
+}
+
+.eighteen {
+  width: 2.702%;
+  background-color: #96FFEE;
+  height: 100%;
+  float: left;
+}
+.eighteen:hover{
+  opacity: 0.8;
+}
+.eighteen:active{
+  opacity: 1;
+  background-color: #FF96A7;
+}
+
+.nineteen {
+  width: 2.702%;
+  background-color: #96FFFF;
+  height: 100%;
+  float: left;
+}
+.nineteen:hover{
+  opacity: 0.8;
+}
+.nineteen:active{
+  opacity: 1;
+  background-color: #FF9696;
+}
+
+.twenty {
+  width: 2.702%;
+  background-color: #96EEFF;
+  height: 100%;
+  float: left;
+}
+.twenty:hover{
+  opacity: 0.8;
+}
+.twenty:active{
+  opacity: 1;
+  background-color: #FFA796;
+}
+
+.twentyone {
+  width: 2.702%;
+  background-color: #96DCFF;
+  height: 100%;
+  float: left;
+}
+.twentyone:hover{
+  opacity: 0.8;
+}
+.twentyone:active{
+  opacity: 1;
+  background-color: #FFB996;
+}
+
+.twentytwo {
+  width: 2.702%;
+  background-color: #96CBFF;
+  height: 100%;
+  float: left;
+}
+.twentytwo:hover{
+  opacity: 0.8;
+}
+.twentytwo:active{
+  opacity: 1;
+  background-color: #FFCA96;
+}
+
+.twentythree {
+  width: 2.702%;
+  background-color: #96B9FF;
+  height: 100%;
+  float: left;
+}
+.twentythree:hover{
+  opacity: 0.8;
+}
+.twentythree:active{
+  opacity: 1;
+  background-color: #FFDC96;
+}
+
+.twentyfour {
+  width: 2.702%;
+  background-color: #96A7FF;
+  height: 100%;
+  float: left;
+}
+.twentyfour:hover{
+  opacity: 0.8;
+}
+.twentyfour:active{
+  opacity: 1;
+  background-color: #FFEE96;
+}
+
+.twentyfive {
+  width: 2.702%;
+  background-color: #9696FF;
+  height: 100%;
+  float: left;
+}
+.twentyfive:hover{
+  opacity: 0.8;
+}
+.twentyfive:active{
+  opacity: 1;
+  background-color: #FFFF96;
+}
+
+.twentysix {
+  width: 2.702%;
+  background-color: #A896FF;
+  height: 100%;
+  float: left;
+}
+.twentysix:hover{
+  opacity: 0.8;
+}
+.twentysix:active{
+  opacity: 1;
+  background-color: #EDFF96;
+}
+
+.twentyseven {
+  width: 2.702%;
+  background-color: #B996FF;
+  height: 100%;
+  float: left;
+}
+.twentyseven:hover{
+  opacity: 0.8;
+}
+.twentyseven:active{
+  opacity: 1;
+  background-color: #DCFF96;
+}
+
+.twentyeight {
+  width: 2.702%;
+  background-color: #CB96FF;
+  height: 100%;
+  float: left;
+}
+.twentyeight:hover{
+  opacity: 0.8;
+}
+.twentyeight:active{
+  opacity: 1;
+  background-color: #CAFF96;
+}
+
+.twentynine {
+  width: 2.702%;
+  background-color: #DC96FF;
+  height: 100%;
+  float: left;
+}
+.twentynine:hover{
+  opacity: 0.8;
+}
+.twentynine:active{
+  opacity: 1;
+  background-color: #B9FF96;
+}
+
+.thirty {
+  width: 2.702%;
+  background-color: #ED96FF;
+  height: 100%;
+  float: left;
+}
+.thirty:hover{
+  opacity: 0.8;
+}
+.thirty:active{
+  opacity: 1;
+  background-color: #A8FF96;
+}
+
+.thirtyone {
+  width: 2.702%;
+  background-color: #FF96FF;
+  height: 100%;
+  float: left;
+}
+.thirtyone:hover{
+  opacity: 0.8;
+}
+.thirtyone:active{
+  opacity: 1;
+  background-color: #96FF96;
+}
+
+.thirtytwo {
+  width: 2.702%;
+  background-color: #FF96ED;
+  height: 100%;
+  float: left;
+}
+.thirtytwo:hover{
+  opacity: 0.8;
+}
+.thirtytwo:active{
+  opacity: 1;
+  background-color: #96FFA8;
+}
+
+.thirtythree {
+  width: 2.702%;
+  background-color: #FF96DC;
+  height: 100%;
+  float: left;
+}
+.thirtythree:hover{
+  opacity: 0.8;
+}
+.thirtythree:active{
+  opacity: 1;
+  background-color: #96FFB9;
+}
+
+.thirtyfour {
+  width: 2.702%;
+  background-color: #FF96CB;
+  height: 100%;
+  float: left;
+}
+.thirtyfour:hover{
+  opacity: 0.8;
+}
+.thirtyfour:active{
+  opacity: 1;
+  background-color: #96FFCA;
+}
+
+.thirtyfive {
+  width: 2.702%;
+  background-color: #FF96B9;
+  height: 100%;
+  float: left;
+}
+.thirtyfive:hover{
+  opacity: 0.8;
+}
+.thirtyfive:active{
+  opacity: 1;
+  background-color: #96FFDC;
+}
+
+.thirtysix {
+  width: 2.702%;
+  background-color: #FF96A8;
+  height: 100%;
+  float: left;
+}
+.thirtysix:hover{
+  opacity: 0.8;
+}
+.thirtysix:active{
+  opacity: 1;
+  background-color: #96FFED;
+}
+
+.thirtyseven {
+  width: 2.702%;
+  background-color: #FF9698;
+  height: 100%;
+  float: left;
+}
+.thirtyseven:hover{
+  opacity: 0.8;
+}
+.thirtyseven:active{
+  opacity: 1;
+  background-color: #96FFFD;
+}
+
+/*.thirtyeight {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.thirteighty:hover{
+  background-color: #000000;
+}
+
+.thirtynine {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.thirtynine:hover{
+  background-color: #000000;
+}
+
+.fortyone {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fortyone:hover{
+  background-color: #000000;
+}
+
+.fortytwo {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fortytwo:hover{
+  background-color: #000000;
+}
+
+.fortythree {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fortythree:hover{
+  background-color: #000000;
+}
+
+.fortyfour {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fortyfour:hover{
+  background-color: #000000;
+}
+
+.fortyfive {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fortyfive:hover{
+  background-color: #000000;
+}
+
+.fortysix {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fortysix:hover{
+  background-color: #000000;
+}
+
+.fortyseven {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fortyseven:hover{
+  background-color: #000000;
+}
+
+.fortyeight {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fortyeight:hover{
+  background-color: #000000;
+}
+
+.fortynine {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fortynine:hover{
+  background-color: #000000;
+}
+
+.fifty {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fifty:hover{
+  background-color: #000000;
+}
+
+.fiftyone {
+  width: 2%;
+  background-color: #000000;
+  height: 100%;
+  float: left;
+}
+.fiftyone:hover{
+  background-color: #000000;
+}
+
+
+*/
