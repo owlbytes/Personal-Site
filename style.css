@@ -1,3 +1,5 @@
+/*//////GENERAL STYLING\\\\\\*/
+
 body {
   background-color: #ffffff;
 }
@@ -8,6 +10,10 @@ a {
   text-decoration: none;
   color: #80cfcf;
 }
+
+
+
+
 
 /*//////NAVIGATION BAR STYLING\\\\\\*/
 
@@ -70,6 +76,8 @@ li {
 
 
 
+
+
 /*//////HOMEPAGE STYLING \\\\\\*/
 
 .orange{
@@ -84,6 +92,9 @@ li {
   margin-left: auto;
   text-align: center;
 }
+
+
+
 
 
 /*//////ABOUT PAGE STYLING \\\\\\*/
@@ -130,6 +141,10 @@ h4 {
 }
 
 
+
+
+
+
 /*//////WORK PAGE STYLING \\\\\\*/
 .workpage {
 }
@@ -148,13 +163,26 @@ h4 {
   margin: 4px;
 }
 
-.bbl{
+/*css to allow the text description of bbl to be visible upon hover
+*/
+
+/*styling for the image*/
+.bbl,
+.freelance,
+.appular,
+.bose{
+  /*the image is positioned relative to its normal position*/
   position: relative;
   width: 300px;
   height: 250px;
 }
 
-.bbltext{
+/*styling for the text*/
+.bbltext,
+.freelancetext,
+.appulartext,
+.bosetext{
+  /*the text is positioned relative to its first positioned (not static) ancestor element (image)*/
   position: absolute;
   top: 0;
   bottom: 0;
@@ -167,7 +195,13 @@ h4 {
   opacity: 0;
 }
 
-.bbl:hover .bbltext {
+
+/*wstyling for the hover. when you hover over the image the text is visible. magic!*/
+.bbl:hover .bbltext,
+.freelance:hover .freelancetext,
+.appular:hover .appulartext,
+.bose:hover .bosetext{
   visibility: visible;
   opacity: 1;
 }
+ 
