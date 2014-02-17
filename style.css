@@ -101,6 +101,7 @@ li {
 
 .about {
   padding: 25px;
+  color: #808080;
 }
 .aboutone{
   width: 50%;
@@ -243,6 +244,31 @@ h4 {
 .tina:hover .tinatext{
   visibility: visible;
   opacity: 1;
+}
+
+
+
+
+
+
+/*//////SKILLS/EDUCATION STYLING \\\\\\*/
+.skills {
+  color: #808080;
+}
+
+.skills h4,
+.skills h3 {
+  color: #80cfcf;
+}
+.subtitle {
+  text-align: center;
+}
+
+.skills li {
+  display: list-item;
+  text-align: left;
+  te
+  a
 }
 
 
