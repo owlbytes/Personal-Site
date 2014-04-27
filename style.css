@@ -1,0 +1,101 @@
+/*Navigatio*/
+
+
+
+/*About Page */
+
+
+#AboutImage{
+  background-color: yellow;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+  width: auto;
+/*  border: 4px solid #2FFFCE;*/
+}
+
+ #tagline {
+  text-align: center;
+  font-style:italic;
+ }
+
+
+/* Work Page & Portfolio Page */ 
+/*styling for the image*/
+#bbl,
+#freelance,
+#appular,
+#bose,
+#naspaa,
+#ea,
+#fly,
+#nyo,
+#ra,
+#congress,
+#aiusa,
+#cv,
+#aerosoul,
+#colorwave,
+#hoots,
+#tina{
+  /*the image is positioned relative to its normal position*/
+  position: relative;
+  width: 300px;
+  height: 250px;
+}
+
+/*styling for the text*/
+#bbltext,
+#freelancetext,
+#appulartext,
+#bosetext,
+#naspaatext,
+#eatext,
+#flytext,
+#nyotext,
+#ratext,
+#congresstext,
+#aiusatext,
+#cvtext,
+#aerosoultext,
+#colorwavetext,
+#hootstext,
+#tinatext{
+  /*the text is positioned relative to its first positioned (not static) ancestor element (image)*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-radius:25px;
+  color: #80cfcf;
+  visibility: hidden;
+  opacity: 0;
+  overflow: scroll;
+}
+
+
+/*wstyling for the hover. when you hover over the image the text is visible. magic!*/
+#bbl:hover #bbltext,
+#freelance:hover #freelancetext,
+#appular:hover #appulartext,
+#bose:hover #bosetext,
+#naspaa:hover #naspaatext,
+#ea:hover #eatext,
+#fly:hover #flytext,
+#nyo:hover #nyotext,
+#ra:hover #ratext,
+#congress:hover #congresstext,
+#aiusa:hover #aiusatext,
+#cv:hover #cvtext,
+#aerosoul:hover #aerosoultext,
+#colorwave:hover #colorwavetext,
+#hoots:hover #hootstext,
+#tina:hover #tinatext{
+  visibility: visible;
+  opacity: 1;
+}
