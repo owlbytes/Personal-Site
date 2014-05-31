@@ -1,15 +1,22 @@
 /*Navigatio*/
+#navlinks,
+#navlinks a{
+  display: inline;
+  background-color: blue;
+}
 
+#navsm {
+  display: inline-block;
+}
+
+#navsm img {
+  padding: 2%;
+  float: right;
+}
 
 
 
 /*HomePage*/
-
-#indexx {
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
 
 
 
