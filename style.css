@@ -22,8 +22,8 @@
   border-radius: 15px;
   vertical-align: middle;
   display: inline-block;
-  height: 100%;
-  width: auto;
+  height: auto%;
+  width: 100%;
 }
 
  #tagline {
