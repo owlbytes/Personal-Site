@@ -135,3 +135,31 @@ background-color: #40c1ac;
 #grid:nth-child(3):hover{
   background-color: rgba(255, 239, 3, 1);
 }
+
+/*Skills Page */ 
+#stack {
+  padding: 1.2%;
+  height: 280px;
+}
+
+#stack:nth-child(1){
+  background-color: rgba(64, 193, 172, 0.7);
+}
+
+#stack:nth-child(1):hover{
+  background-color: rgba(64, 193, 172, 1);
+}
+
+#stack:nth-child(2){
+  background-color: rgba(238, 7, 137, 0.7);
+}
+#stack:nth-child(2):hover{
+  background-color: rgba(238, 7, 137, 1);
+}
+
+#stack:nth-child(3){
+  background-color: rgba(255, 239, 3, 0.7);
+}
+#stack:nth-child(3):hover{
+  background-color: rgba(255, 239, 3, 1);
+}
