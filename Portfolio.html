@@ -1,12 +1,13 @@
-
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neha Shah: Portfolio</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Neha Shah</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="skeleton.css" />
+    <link rel="stylesheet" href="style.css">
     <script src="js/vendor/modernizr.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -20,104 +21,88 @@
   </head>
   <body>
 <!--     nav bar -->
-    <nav class="top-bar">
-      <ul class="title-area">
-        <li class="name"><h1><a href="index.html">Neha</a></h1></li>
-         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-      <section class="top-bar-section">
-        <!-- website links -->
-          <ul class="left">
-            <li><a href="About.html">About</a></li>
-            <li><a href="Work.html">Experience</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="Education.html">Education/Skills</a></li>
-<!--             <li><a href="#">Photos</a></li> -->
-          </ul>
-        <!-- sm contact links -->
-          <ul class="right">
-            <li class="mailicon"><a href="mailto:neshah07@gmail.com?Subject=Hello" target="_blank"><img class="gmailicon" src="webicon-mail-m.png" alt="Email Icon"></a></li>
-            <li><a href="https://github.com/owlbytes" target="_blank"><img src="webicon-github-m.png" alt="Github Icon"></a></li>
-            <li><a href="https://twitter.com/neha_shah" target="_blank"><img src="webicon-twitter-m.png" alt="Twitter Icon"></a></li>
-            <li><a href="http://uk.linkedin.com/in/nehashah1/" target="_blank"><img src="webicon-linkedin-m.png" alt="Linked Icon"></a></li>
-            <li><a href="http://owlbytes.tumblr.com/" target="_blank"><img src="webicon-tumblr-m.png" alt="Tumblr Icon"></a></li>
-            <li><a href="https://www.facebook.com/neha1" target="_blank"><img src="webicon-facebook-m.png" alt="Facebook Icon"></a></li>
-            <li><a href="https://www.goodreads.com/user/show/4101366-neha-shah" target="_blank"><img src="webicon-goodreads-m.png" alt="Goodreads Icon"></a></li>
-          </ul>
-      </section>
-    </nav>
-
-
-  <!-- portfolio -->
-  <br>
-  <br>
-  <div class="row" id="PortfolioRow">
-    <div class="large-4 columns" id="cv">
-      <img src="cv.png" alt="CV word cloud image">
-      <div id= "cvtext">
-        <h4 id="worktitle">Neha's CV</h4>
-        <p>A downloadable version of my work history, portfolio, and skills</p>
-        <a href="Neha Shah CV.pdf" target="_blank">Download</a>
+<nav>
+  <div class="container">
+    <div class="sixteen columns">
+      <div class="row">
+        <div class="sixteen columns" id="nav">
+          <div class="eight columns omega" id="navlinks">
+            <h1><a href="index.html" id="hey">Neha</a></h1>
+            <a href="About.html" id="hey">About</a>
+            <a href="Work.html" id="hey">Experience</a>       
+            <a href="Portfolio.html" id="hey">Portfolio</a>
+            <a href="Education.html" id="hey">Skills</a>
+          </div>
+          <div class="eight columns omega" id="navsm">
+            <a href="mailto:neshah07@gmail.com?Subject=Hello" target="_blank"><img class="gmailicon" src="webicon-mail-m.png" alt="Email Me link"></a>
+            <a href="https://github.com/owlbytes" target="_blank"><img src="webicon-github-m.png" alt="Github Account link"></a>
+            <a href="https://twitter.com/neha_shah" target="_blank"><img src="webicon-twitter-m.png" alt="twitter account link"></a>
+            <a href="http://uk.linkedin.com/in/nehashah1/" target="_blank"><img src="webicon-linkedin-m.png" alt="linkedin account link"></a>
+            <a href="http://owlbytes.tumblr.com/" target="_blank"><img src="webicon-tumblr-m.png" alt="tumblr account link"></a>
+            <a href="https://www.facebook.com/neha1" target="_blank"><img src="webicon-facebook-m.png" alt="Facebook account link"></a>
+            <a href="https://www.goodreads.com/user/show/4101366-neha-shah" target="_blank"><img src="webicon-goodreads-m.png" alt="Goodreads account link"></a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="large-4 columns" id="aerosoul">
-      <img src="aerosoul.png" alt="AeroSoul image">
-      <div id="aerosoultext">
-        <h4 id="worktitle">AeroSoul</h4>
-        <p>A web application that lets you discover and curate street art.</p>
-        <p>Built with Ruby on Rails, HAML, SCSS, Javascript </p>
-        <a href="http://aerosoul.me/" target="_blank" id="worktitle">Go</a>
-      </div>
-    </div>
-    <div class="large-4 columns" id="colorwave">
-      <img src="colors.png" alt="Color Wave image">
-      <div id="colorwavetext">
-        <h4 id="worktitle">ColorWave</h4>
-        <p>An exploration of color.</p>
-        <p>Built with HTML and CSS</p>
-        <a href="color.html" target="_blank">Go</a>
-    </div>
-  </div>
-  <div class="row" id="PortfolioRow">
-    <div class="large-4 columns" id="hoots">
-      <img src="hoots.png" alt="hoots logo">
-      <div id= "hootstext">
-        <h4 id="worktitle">Hoots</h4>
-        <p>Hoots allows users to write, promote, and vote on 141-character messages of positivity. </p>
-        <p>Built with Ruby on Rails, Javascript, HTML5, CSS </p>
-        <a href="http://hoots-app.herokuapp.com/" target="_blank">Go</a>
-      </div>
-    </div>
-    <div class="large-4 columns" id="tina">
-      <img src="tina.png" alt="Amy Poehler and Tina Fey image">
-      <div id="tinatext">
-        <h4 id="worktitle">Amy and Tina</h3>
-        <p>Amy and Tina allows users to discover advice from cultural icons Tina Fey and Amy Poehler.</p>
-        <p>Built with Ruby on Rails, HTML, and CSS.</p>
-        <a href="http://amytina.herokuapp.com/" target="_blank">Go</a>
-      </div>
-    </div>
-    <div class="large-4 columns" >
-      <img>
-      <div>
-        <h3></h3>
-        <h4></h4>
-        <h4></h4>
-        <a></a>
-    </div>
-  </div>
-
-
-          
-
-    
-</body>
-</html>
-
-
-
-  
-      
+    </div> <!-- end of sixteen columns -->
+  </div> <!-- end of container -->
+</nav>
+<div class="container">
+  <div class="sixteen columns">
+    <div class="row">
+      <div class="five columns alpha" id="grid">
+        <a href="Neha Shah CV.pdf" target="blank">
+        <h4 id="center">CV</h4></a>
+        <br>
+        <p>A downloadable version of my CV</p>
         
-      
+      </div>
+      <div class="five columns omega" id="grid">
+        <a href="http://www.aerosoul.me" target="blank">
+        <h4 id="center">AeroSoul</h4></a>
+        <br>
+        <p>A web application that lets you discover and curate street art.</p>
+        <p>Features: Google Maps API, OAuth, tagging, favoriting, voting.</p>
+        <p>Built with Ruby on Rails, HAML, SCSS, Javascript.</p> 
+      </div>
+      <div class="five columns omega" id="grid">
+        <a href="http://www.thebohemianclub.co.uk" target="blank"><h4 id="center">The Bohemian Club</h4></a>
+        <br>
+        <p>A website for an independent record-label.</p>
+        <p>Built with HTML, CSS, and Javascript</p>
+      </div>
+    </div>
+    <div class="row" id="center">
+      <div class="five columns alpha" id="grid">
+        <a href="http://www.binasart.com" target="blank"><h4 id="center">Bina's Art</h4></a>
+        <br>
+        <p>Website for sculptor.</p>
+        <p>Built with HTML, CSS, and Javascript</p>
+      </div>
+      <div class="five columns omega" id="grid">
+        <a href="color.html" target="blank"><h4 id="center">Color Wave</h4></a>
+        <br>
+        <p>An exploration of color.</p>
+        <p>Built with HTML &amp; CSS.</p>
+      </div>
+      <div class="five columns omega" id="grid">
+        <a href="http://amytina.herokuapp.com/" target="_blank"><h4 id="center">Amy &amp; Tina</h4></a>
+        <br>
+        <p>Amy and Tina allows users to discover advice from cultural icons Tina Fey and Amy Poehler</p>
+        <p>Built with Ruby on Rails, HTML, and CSS.</p>
+      </div>
+    </div>
+    <div class="row" id="center">
+      <div class="five columns alpha" id="grid">
+        <a href="http://hoots-app.herokuapp.com/" target="_blank"><h4 id="center">Hoots</h4></a>
+        <br>
+        <p>Hoots allows users to write, promote, and vote on short messages of positivity.</p>
+        <p>Features: Infinite Scroll, favoriting, Twilio, OAuth</p>
+        <p>Built with Ruby on Rails, Javascript, HTML5, CSS</p>
+      </div>
+    </div>
+  
+  </div>
+</div>
+  </body>
+</html>

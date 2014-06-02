@@ -72,9 +72,8 @@ background-color: #40c1ac;
 
 
 
-/* Work Page & Portfolio Page */ 
-/*styling for the image*/
-
+/* Experience Page   Portfolio Page */ 
+ 
  #center{
   margin-left: auto;
   margin-right: auto;
@@ -83,7 +82,7 @@ background-color: #40c1ac;
 
 #box {
   padding: 1.2%;
-  height: 290px;
+  height: 260px;
 
 }
 
@@ -91,10 +90,48 @@ background-color: #40c1ac;
   background-color: rgba(64, 193, 172, 0.7);
 }
 
+#box:nth-child(1):hover{
+  background-color: rgba(64, 193, 172, 1);
+}
+
 #box:nth-child(2){
   background-color: rgba(238, 7, 137, 0.7);
+}
+#box:nth-child(2):hover{
+  background-color: rgba(238, 7, 137, 1);
 }
 
 #box:nth-child(3){
   background-color: rgba(255, 239, 3, 0.7);
+}
+#box:nth-child(3):hover{
+  background-color: rgba(255, 239, 3, 1);
+}
+
+/*Portfolio Page */ 
+#grid {
+  padding: 1.2%;
+  height: 220px;
+}
+
+#grid:nth-child(1){
+  background-color: rgba(64, 193, 172, 0.7);
+}
+
+#grid:nth-child(1):hover{
+  background-color: rgba(64, 193, 172, 1);
+}
+
+#grid:nth-child(2){
+  background-color: rgba(238, 7, 137, 0.7);
+}
+#grid:nth-child(2):hover{
+  background-color: rgba(238, 7, 137, 1);
+}
+
+#grid:nth-child(3){
+  background-color: rgba(255, 239, 3, 0.7);
+}
+#grid:nth-child(3):hover{
+  background-color: rgba(255, 239, 3, 1);
 }
