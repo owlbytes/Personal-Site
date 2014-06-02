@@ -79,12 +79,19 @@ background-color: #2ad2c9;
 /* Work Page & Portfolio Page */ 
 /*styling for the image*/
 
-#grid:nth-child(1) { background: #3399CC; }
-#grid:nth-child(2) { background: red; }
-#grid:nth-child(3) { background: green; }
-#grid:nth-child(4) { background: yellow; }
+ #center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: auto;
+  background-color: red;
+ }
 
 
+#box {
+  background-color: yellow;
+  padding: 1.2%;
+
+}
 #worktitle {
   text-align: center;
 }
