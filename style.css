@@ -1,10 +1,8 @@
 /*Navigatio*/
-#navlinks,
-#navlinks a{
-  display: inline;
-  background-color: blue;
-}
 
+#nav {
+  background: url("http://img4-3.realsimple.timeinc.net/images/1010/christmas-lights_300.jpg")
+}
 #navsm {
   display: inline-block;
 }
@@ -14,10 +12,25 @@
   float: right;
 }
 
+#navlinks{
+  display: inline-block;
+}
+
+#navlinks a {
+  float: left;
+  padding: 2%;
+  text-decoration: none;
+}
 
 
 /*HomePage*/
+#index{
+}
 
+#index img {
+  width: 100%;
+  height: auto;
+}
 
 
 /*About Page */
